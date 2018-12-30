@@ -1,0 +1,65 @@
+.login_form {
+	margin-top: 8%;
+	width: 50%;
+	height: 50%;
+	border-radius: 5px;
+}
+
+table {
+	box-shadow: 1px 1px 12px white;
+	border: double;
+	border-radius: 3px;
+	border-color: white;
+	padding: 15px;
+	line-height: 60px;
+	align-content: center;
+}
+
+.login {
+	/*This is for styling the input button.*/
+	width: 40%;
+	height: 40px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #ECEEEE;
+	background-color: #37a69b;
+  	border: 1px solid #42464b;
+  	cursor: pointer;
+  	border-radius: 5px;
+}
+
+.reset {
+	width: 10%;
+	height: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #ECEEEE;
+	background-color: #37a69b;
+  	border: 1px solid #42464b;
+  	cursor: pointer;
+  	border-radius: 5px;
+}
+
+.entry-fields {
+	box-shadow: 1px 1px 1px #FFF;
+	font-size: 16px;
+	background-color: #CCC;
+	border-radius: 5px;
+	font-weight: bold;
+	color: #0D47A1;
+}
+
+input[type="submit"]:focus, input[type="button"]:focus {
+	background-color: transparent;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+	background-color: white;
+	text-align: center;
+}
+
+input[type="submit"]:hover, button:hover {
+	background-color: teal;
+}
